@@ -1,5 +1,5 @@
-# Zoo Management Game
-Welcome to the Zoo Management Game, an interactive zoo exploration and management game built using Pygame and MoviePy. In this game, players can explore various sections of a zoo, each featuring animals, birds, and different attractions. The game includes image displays, video playback, and interactive buttons that guide the player through different areas of the zoo.
+# Visit Zoo Game
+Welcome to the Visit Zoo Game, an interactive zoo exploration and management game built using Pygame and MoviePy. In this game, players can explore various sections of a zoo, each featuring animals, birds, and different attractions. The game includes image displays, video playback, and interactive buttons that guide the player through different areas of the zoo.
 
 ## Features
 - **Interactive Zoo Sections:** Explore sections like Animals, Birds, Lion, Parrot, and more. Each section comes with its own unique content, including images and short video clips.
@@ -56,4 +56,4 @@ The project follows a modular approach:
 - Videos: Short clips play when a player explores a new area (e.g., viewing Lions or Elephants).
 
 ## License
-This project is licensed under the MIT License. See the LICENSE file for more details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
