@@ -48,12 +48,12 @@ The project follows a modular approach:
 - **main.jac:** Core game logic including Pygame event loop and display management.
 - **gui.jac:** Handles the GUI-related functionalities such as button rendering and screen updates.
 - **model.jac:** Defines the zoo structure, including sections, paths, and the visitor’s behavior.
-<!-- user.py: Manages player interactions and navigation between sections. -->
-<!-- utils.py: Includes utility functions for loading media, managing events, etc. -->
+<!-- **user.py:** Manages player interactions and navigation between sections. -->
+<!-- **utils.py:** Includes utility functions for loading media, managing events, etc. -->
 
 ## Media
-- Images: Displayed when entering certain sections.
-- Videos: Short clips play when a player explores a new area (e.g., viewing Lions or Elephants).
+- **Images:** Displayed when entering certain sections.
+- **Videos:** Short clips play when a player explores a new area (e.g., viewing Lions or Elephants).
 
 ## License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
