@@ -30,7 +30,7 @@ If a section is restricted (marked in red), you won’t be able to enter until c
 Clone the repository:
 ```
 git clone https://github.com/Thamirawaran/Visit_zoo.git
-cd Visit_zoo
+cd Visit_zoo/src
 ```
 
 ## Install the required dependencies:
