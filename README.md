@@ -22,7 +22,7 @@ If a section is restricted (marked in red), you won’t be able to enter until c
 
 ## Setup
 ### Prerequisites
-- Python 3.x
+- Jaclang
 - Pygame
 - MoviePy
 
