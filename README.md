@@ -29,8 +29,8 @@ If a section is restricted (marked in red), you won’t be able to enter until c
 ## Installation
 Clone the repository:
 ```
-git clone https://github.com/Thamirawaran/Visit_zoo.git
-cd Visit_zoo/src
+git clone https://github.com/Thamirawaran/Visit_Zoo.git
+cd Visit_Zoo/src
 ```
 
 ## Install the required dependencies:
