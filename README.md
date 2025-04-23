@@ -22,9 +22,9 @@ If a section is restricted (marked in red), you won’t be able to enter until c
 
 ## Setup
 ### Prerequisites
-- Jaclang: The Jac programming language, a drop-in replacement for and supersets Python.
-- Pygame: A library for creating 2D games and multimedia applications in Python.
-- MoviePy: A Python tool for video editing, effects, and composition.
+- **Jaclang:** The Jac programming language, a drop-in replacement for and supersets Python.
+- **Pygame:** A library for creating 2D games and multimedia applications in Python.
+- **MoviePy:** A Python tool for video editing, effects, and composition.
 
 ## Installation
 Clone the repository:
