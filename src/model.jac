@@ -11,13 +11,13 @@ edge Road{
 }
 
 with entry{
-    Entry = Section("Entry",(320,70),'assets\\images\\entry.png','assets\\videos\\entry.mp4',"GEnter");
-    Animal = Section("Animal",(150,200),'assets\\images\\animals.png','assets\\videos\\animals.mp4');
-    Bird = Section("Bird",(500,200),'assets\\images\\birds.png','assets\\videos\\birds.mp4');
+    Entry = Section("Zoo Entry",(320,70),'assets\\images\\entry.png','assets\\videos\\entry.mp4',"GEnter");
+    Animal = Section("Animals",(150,200),'assets\\images\\animals.png','assets\\videos\\animals.mp4');
+    Bird = Section("Birds",(500,200),'assets\\images\\birds.png','assets\\videos\\birds.mp4');
     Lion = Section("Lion",(50,400),'assets\\images\\lion.png','assets\\videos\\lion.mp4');
     Elephant = Section("Elephant",(250,400),'assets\\images\\elephant.png','assets\\videos\\elephant.mp4');
     Parrot = Section("Parrot",(400,400),'assets\\images\\parrot.png','assets\\videos\\parrot.mp4');
-    Humming = Section("Humming",(600,400),'assets\\images\\humming.png','assets\\videos\\humming.mp4');
+    Humming = Section("Humming Bird",(600,400),'assets\\images\\humming.png','assets\\videos\\humming.mp4');
 
     Road_0 = Road(5);
     Road_1 = Road(10);
