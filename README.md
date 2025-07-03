@@ -1,59 +1,181 @@
-# Visit Zoo Game
-Welcome to the Visit Zoo Game, an interactive zoo exploration and management game built using Pygame and MoviePy. In this game, players can explore various sections of a zoo, each featuring animals, birds, and different attractions. The game includes image displays, video playback, and interactive buttons that guide the player through different areas of the zoo.
+# 🦁 Visit Zoo Game
 
-## Features
-- **Interactive Zoo Sections:** Explore sections like Animals, Birds, Lion, Parrot, and more. Each section comes with its own unique content, including images and short video clips.
-- **State-Based Interaction:** Navigate through the zoo based on the current availability of sections. Sections can be either accessible, restricted, or marked for exit, providing a dynamic experience.
-- **Media Integration:** Enjoy media-rich content as each section of the zoo plays a short video.
-- **Object-Oriented Design:** The game uses a modular structure with clear separation of logic, including classes for buttons, sections, and navigation.
-- **Real-Time Exploration:** The player uses mouse clicks to interact with the zoo, making decisions based on the accessibility of sections. Explore in real time and enjoy seamless transitions between sections.
+[![Jaclang](https://img.shields.io/badge/Jaclang-0.7.24-blue.svg)](https://github.com/Jaseci-Labs/jaclang)
+[![Pygame](https://img.shields.io/badge/Pygame-2.1.0-green.svg)](https://www.pygame.org/)
+[![MoviePy](https://img.shields.io/badge/MoviePy-1.0.3-orange.svg)](https://zulko.github.io/moviepy/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-## How to Play
-Start at the entry point of the zoo.
-Click on available sections (marked in green) to explore new areas.
-Watch videos or view images as you enter each section.
-Navigate between sections by exiting previously visited areas and opening new ones.
-If a section is restricted (marked in red), you won’t be able to enter until certain conditions are met.
+> 🎮 An immersive interactive zoo exploration game built with Jaclang, featuring dynamic state management and multimedia experiences.
 
-## Controls
-- **Mouse:** Use your mouse to click on sections of the zoo and interact with buttons.
-- **Exit:** After visiting a section, click the exit button to return to the previous area.
-- **Navigation:** Follow the state indicators (green, red, or exit) to guide your exploration.
+![Zoo Game Banner](assets/images/banner.png)
 
-## Setup
-### Prerequisites
-- **Jaclang:** The Jac programming language, a drop-in replacement for and supersets Python.
-- **Pygame:** A library for creating 2D games and multimedia applications in Python.
-- **MoviePy:** A Python tool for video editing, effects, and composition.
+## ✨ Features
 
-## Installation
-Clone the repository:
+### 🗺️ **Interactive Zoo Exploration**
+- Navigate through beautifully designed zoo sections
+- Each area features unique animals: 🦁 Lions, 🐘 Elephants, 🦜 Parrots, and 🐦 Hummingbirds
+- Dynamic pathfinding and state-based navigation system
+
+### 🎬 **Rich Multimedia Experience**
+- **HD Images**: High-quality visuals for each zoo section
+- **Video Content**: Immersive 3-second video clips for every animal encounter
+- **Audio**: Background music and interactive sound effects
+
+### 🎯 **Smart State Management**
+- 🟢 **Accessible** - Ready to explore
+- 🔴 **Restricted** - Prerequisites required
+- 🚪 **Exit** - Previously visited areas
+
+### 🏗️ **Modern Architecture**
+- Object-oriented design with Jaclang
+- Modular code structure for easy maintenance
+- Real-time event handling and smooth gameplay
+
+## 🎮 How to Play
+
+### 🚀 Getting Started
+1. **Start** at the zoo entrance
+2. **Click** on green sections to explore new areas
+3. **Watch** videos and enjoy the animal experiences
+4. **Navigate** strategically between different zoo sections
+
+### 🕹️ Controls
+| Control | Action |
+|---------|--------|
+| 🖱️ **Mouse Click** | Interact with zoo sections |
+| 🟢 **Green Button** | Enter available section |
+| 🔴 **Red Button** | Section currently restricted |
+| 🚪 **Exit Button** | Return to previous area |
+
+### 📍 Zoo Map
 ```
+🏛️ Zoo Entry
+├── 🐾 Animals Section
+│   ├── 🦁 Lion Exhibit
+│   └── 🐘 Elephant Habitat
+└── 🐦 Birds Section
+    ├── 🦜 Parrot Aviary
+    └── 🐦 Hummingbird Garden
+```
+
+## 🛠️ Setup & Installation
+
+### 📋 Prerequisites
+- 🐍 **Python 3.8+**
+- 🎯 **Jaclang** - Advanced programming language for AI and graph computing
+- 🎮 **Pygame** - Cross-platform gaming library
+- 🎬 **MoviePy** - Video processing toolkit
+
+### ⚡ Quick Install
+
+```bash
+# Clone the repository
 git clone https://github.com/Thamirawaran/Visit_Zoo.git
-cd Visit_Zoo/src
-```
+cd Visit_Zoo
 
-## Install the required dependencies:
-```
+# Install dependencies
 pip install -r requirements.txt
-```
 
-## Run the game:
-```
+# Launch the game
+cd src
 jac run main.jac
 ```
 
-## Game Structure
-The project follows a modular approach:
-- **main.jac:** Core game logic including Pygame event loop and display management.
-- **gui.jac:** Handles the GUI-related functionalities such as button rendering and screen updates.
-- **model.jac:** Defines the zoo structure, including sections, paths, and the visitor’s behavior.
-<!-- **user.py:** Manages player interactions and navigation between sections. -->
-<!-- **utils.py:** Includes utility functions for loading media, managing events, etc. -->
+### 🐳 Docker Setup (Optional)
+```bash
+docker build -t visit-zoo .
+docker run -it --rm visit-zoo
+```
 
-## Media
-- **Images:** Displayed when entering certain sections.
-- **Videos:** Short clips play when a player explores a new area (e.g., viewing Lions or Elephants).
+## 🏗️ Project Structure
 
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+```
+Visit_Zoo/
+├── 📁 src/
+│   ├── 🎯 main.jac          # Core game engine & event loop
+│   ├── 🎨 gui.jac           # UI components & rendering
+│   └── 🗺️ model.jac        # Zoo structure & navigation logic
+├── 📁 assets/
+│   ├── 🖼️ images/          # Section visuals & UI elements
+│   ├── 🎬 videos/          # Animal encounter clips
+│   └── 🎵 music/           # Background audio & sound effects
+├── 📋 requirements.txt      # Python dependencies
+├── 📄 LICENSE              # MIT License
+└── 📖 README.md            # This file
+```
+
+## 🎨 Screenshots
+
+<div align="center">
+
+### 🏛️ Zoo Entrance
+![Zoo Entrance](assets/images/screenshot1.png)
+
+### 🦁 Animal Encounters
+![Animal Section](assets/images/screenshot2.png)
+
+### 🐦 Bird Sanctuary
+![Bird Section](assets/images/screenshot3.png)
+
+</div>
+
+## 🔧 Technical Details
+
+### 🎯 Built With Jaclang
+- **Graph-based Architecture**: Leverages Jaclang's native graph processing
+- **Walker Pattern**: Efficient navigation through zoo sections
+- **Type Safety**: Strong typing for better code reliability
+
+### 🎮 Game Engine Features
+- **60 FPS** smooth gameplay
+- **Responsive UI** with dynamic resizing
+- **Memory-efficient** media loading
+- **Cross-platform** compatibility
+
+## 🤝 Contributing
+
+We welcome contributions! Here's how you can help:
+
+1. 🍴 **Fork** the repository
+2. 🌟 **Create** a feature branch (`git checkout -b feature/amazing-feature`)
+3. 💾 **Commit** your changes (`git commit -m 'Add amazing feature'`)
+4. 📤 **Push** to the branch (`git push origin feature/amazing-feature`)
+5. 🔄 **Open** a Pull Request
+
+### 🐛 Bug Reports
+Found a bug? Please open an issue with:
+- Detailed description
+- Steps to reproduce
+- Expected vs actual behavior
+- System information
+
+## 📝 Changelog
+
+### v1.0.0 (Latest)
+- ✨ Initial release
+- 🎮 Full zoo exploration gameplay
+- 🎬 Multimedia integration
+- 🎯 Jaclang-powered architecture
+
+## 📄 License
+
+This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
+
+## 🙏 Acknowledgments
+
+- 🎯 **Jaclang Team** - For the amazing programming language
+- 🎮 **Pygame Community** - For the robust gaming framework
+- 🎬 **MoviePy Contributors** - For video processing capabilities
+- 🦁 **Zoo Communities** - For inspiration and educational content
+
+---
+
+<div align="center">
+
+**⭐ If you enjoyed this project, please give it a star! ⭐**
+
+Made with ❤️ by [Thamirawaran Sathiyalogeswaran](https://github.com/Thamirawaran)
+
+[🐛 Report Bug](https://github.com/Thamirawaran/Visit_Zoo/issues) • [✨ Request Feature](https://github.com/Thamirawaran/Visit_Zoo/issues) • [💬 Ask Question](https://github.com/Thamirawaran/Visit_Zoo/discussions)
+
+</div>
