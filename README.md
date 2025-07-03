@@ -7,8 +7,6 @@
 
 > 🎮 An immersive interactive zoo exploration game built with Jaclang, featuring dynamic state management and multimedia experiences.
 
-![Zoo Game Banner](assets/images/banner.png)
-
 ## ✨ Features
 
 ### 🗺️ **Interactive Zoo Exploration**
@@ -103,21 +101,6 @@ Visit_Zoo/
 ├── 📄 LICENSE              # MIT License
 └── 📖 README.md            # This file
 ```
-
-## 🎨 Screenshots
-
-<div align="center">
-
-### 🏛️ Zoo Entrance
-![Zoo Entrance](assets/images/screenshot1.png)
-
-### 🦁 Animal Encounters
-![Animal Section](assets/images/screenshot2.png)
-
-### 🐦 Bird Sanctuary
-![Bird Section](assets/images/screenshot3.png)
-
-</div>
 
 ## 🔧 Technical Details
 
