@@ -155,7 +155,7 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 <div align="center">
 
-**⭐ If you enjoyed this project, please give it a star! ⭐**
+**⭐ If you enjoyed this project, Please give it a star! ⭐**
 
 Made with ❤️ by [Thamirawaran Sathiyalogeswaran](https://github.com/Thamirawaran)
 
